@@ -5,4 +5,8 @@
 //  Created by Safar Safarov on 2020/10/28.
 //
 
-import Foundation
+import SwiftUI
+
+class HomeViewModel: ObservableObject{
+    @Published var search = ""
+}
