@@ -16,7 +16,7 @@ struct Home: View {
                 Button(action: {} , label: {
                     Image(systemName: "line.horizontal.3")
                         .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
-                        .foregroundColor(.pink)
+                        .foregroundColor(.orange)
                 })
                 
                 Text("Deliver To")
@@ -24,7 +24,7 @@ struct Home: View {
                 Text("Apple")
                     .font(.caption) 
                     .fontWeight(.heavy)
-                    .foregroundColor(.pink)
+                    .foregroundColor(.orange)
                 Spacer(minLength: 0)
             }
             .padding([.horizontal,.top])
@@ -49,7 +49,11 @@ struct Home: View {
             Divider()
             
             Spacer()
-            
         }
+        .onAppear(perform: {
+            // Calling location delegate...
+            HomeModel.locationManager.delegate = HomeModel
+            HomeModel.locationManager.requestWhenInUseAuthorization()
+        })
     }
 }
