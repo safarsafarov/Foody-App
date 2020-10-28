@@ -3,7 +3,7 @@ What’s the goal of this project, I want to learn more and more about SwiftUI a
 
 What I’ve learned in this project:
 - [ ] How to Achieve the layout that I designed on code.
-- [ ] Search function.
+- [x] Search function.
 - [ ] Display delivery location, fetched from Core Location.
 - [ ] Firebase + Swift
 - [ ] Cart Page UI
