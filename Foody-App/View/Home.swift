@@ -22,7 +22,7 @@ struct Home: View {
                 Text("Deliver To")
                     .foregroundColor(.black)
                 Text("Apple")
-                    .font(.caption)
+                    .font(.caption) 
                     .fontWeight(.heavy)
                     .foregroundColor(.pink)
                 Spacer(minLength: 0)
