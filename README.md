@@ -1,3 +1,12 @@
-# Foody App
+# 🍔 Foody-App on SwiftUI.
+What’s the goal of this project, I want to learn more and more about SwiftUI and be really good at it. While I am learning how to write proper code I would like to share my steps and actions in my GitHub project.
 
-In this project I will be using  SwiftUI over UIkit because I'm mainly focusing on SwiftUI. I will try to re-creatate the Food delivery app with different design, hope I can do it, stay tuned.
+What I’ve learned in this project:
+- [ ] How to Achieve the layout that I designed on code.
+- [ ] Search function.
+- [ ] Display delivery location, fetched from Core Location.
+- [ ] Firebase + Swift
+- [ ] Cart Page UI
+and more…
+
+Inspired by Kavsoft.
