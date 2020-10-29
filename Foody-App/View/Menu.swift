@@ -23,8 +23,9 @@ struct Menu: View {
                 }
                 padding()
             })
+            padding(10)
         }
-        padding(10)
+        .frame(width: UIScreen.main.bounds.width / 1.6)
     }
-    .frame(width: UIScreen.main.bounds.width / 1.6)
+    
 }
