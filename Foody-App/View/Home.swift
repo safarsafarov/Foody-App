@@ -10,7 +10,11 @@ import SwiftUI
 
 struct Home: View {
     @StateObject var HomeModel = HomeViewModel()
+    
+    
     var body: some View {
+        
+        
         ZStack{
             VStack(spacing: 10) {
                 HStack(spacing: 15) {
