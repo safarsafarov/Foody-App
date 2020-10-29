@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F676B05B254916D200D02123 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F676B05A254916D200D02123 /* Home.swift */; };
 		F676B063254916EA00D02123 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F676B062254916EA00D02123 /* HomeViewModel.swift */; };
+		F69AD459254AA06F00B75838 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F69AD458254AA06F00B75838 /* Menu.swift */; };
 		F6FA8AC825481964003170DD /* Foody_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA8AC725481964003170DD /* Foody_AppApp.swift */; };
 		F6FA8ACA25481964003170DD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6FA8AC925481964003170DD /* ContentView.swift */; };
 		F6FA8ACC25481966003170DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6FA8ACB25481966003170DD /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 /* Begin PBXFileReference section */
 		F676B05A254916D200D02123 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		F676B062254916EA00D02123 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F69AD458254AA06F00B75838 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		F6FA8AC425481964003170DD /* Foody-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Foody-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6FA8AC725481964003170DD /* Foody_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Foody_AppApp.swift; sourceTree = "<group>"; };
 		F6FA8AC925481964003170DD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				F676B05A254916D200D02123 /* Home.swift */,
+				F69AD458254AA06F00B75838 /* Menu.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 				F676B05B254916D200D02123 /* Home.swift in Sources */,
 				F6FA8AC825481964003170DD /* Foody_AppApp.swift in Sources */,
 				F676B063254916EA00D02123 /* HomeViewModel.swift in Sources */,
+				F69AD459254AA06F00B75838 /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
