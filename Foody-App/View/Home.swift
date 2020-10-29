@@ -53,7 +53,7 @@ struct Home: View {
         .onAppear(perform: {
             // Calling location delegate...
             HomeModel.locationManager.delegate = HomeModel
-            HomeModel.locationManager.requestWhenInUseAuthorization()
+           
         })
     }
 }
