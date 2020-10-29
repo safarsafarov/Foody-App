@@ -23,9 +23,22 @@ struct Menu: View {
                 }
                 padding()
             })
-            padding(10)
+            
+            Spacer()
+            
+            HStack {
+                Spacer()
+                
+                Text("Version 0.1")
+                    .fontWeight(.bold)
+                    .foregroundColor(.pink)
+            }
+            .padding(10)
+            
         }
+        .padding([.top, .trailing])
         .frame(width: UIScreen.main.bounds.width / 1.6)
+        .background(Color.white.ignoresSafeArea())
     }
     
 }

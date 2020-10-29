@@ -14,7 +14,9 @@ struct Home: View {
         ZStack{
             VStack(spacing: 10) {
                 HStack(spacing: 15) {
-                    Button(action: {} , label: {
+                    Button(action: {
+                        withAnimation(.easeIn){HomeModel.showMenu.toggle()}
+                    } , label: {
                         Image(systemName: "line.horizontal.3")
                             .font(/*@START_MENU_TOKEN@*/.title/*@END_MENU_TOKEN@*/)
                             .foregroundColor(.orange)
@@ -51,6 +53,22 @@ struct Home: View {
                 
                 Spacer()
             }
+            
+            
+            // Slide Menu...
+            HStack{
+                Menu(homeData: HomeModel)
+                    .offset(x: HomeModel.showMenu ? 0 : -UIScreen.main.bounds.width / 1.6)
+                
+                Spacer(minLength: 0)
+            }
+            .background(
+                Color.black.opacity(HomeModel.showMenu ? 0.3 : 0).ignoresSafeArea()
+                // closing  when taps  on outside...
+                    .onTapGesture(perform: {
+                        withAnimation(.easeIn){HomeModel.showMenu.toggle()}
+                    })
+            )
             
             // Non CLosable Alert If Permission Denied...
             
