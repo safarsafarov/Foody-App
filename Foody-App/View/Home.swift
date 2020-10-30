@@ -75,6 +75,7 @@ struct Home: View {
             )
             
             // Non CLosable Alert If Permission Denied...
+             
             
             if HomeModel.noLocation {
                 Text("Please Enable Location In Settings To further Move On!!!")
