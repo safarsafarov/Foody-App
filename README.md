@@ -4,9 +4,9 @@ What’s the goal of this project, I want to learn more and more about SwiftUI a
 What I’ve learned in this project:
 - [x] How to Achieve the layout that I designed on code.
 - [x] Search function.
-- [ ] Display delivery location, fetched from Core Location.
-- [ ] Firebase + Swift
-- [ ] Cart Page UI
+- [x] Display delivery location, fetched from Core Location.
+- [x] Firebase + Swift
+- [x] Cart Page UI
 and more…
 
 Inspired by Kavsoft.
